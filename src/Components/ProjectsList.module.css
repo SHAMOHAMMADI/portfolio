@@ -1,0 +1,20 @@
+
+
+.ProjectItems{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width:90%;
+    background-color: #eee;
+    direction:rtl;
+ border-radius: 0.5em;
+ margin:1em;
+
+}
+.ProjectItems img{
+    width:100%;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+
+}
+.ProjectItems h3 , h4 {
+    padding:0.1em 0.3em 0.3em 0;
+}

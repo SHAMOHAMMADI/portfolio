@@ -1,0 +1,21 @@
+.Footer{
+    border-top:0.5px solid #bbb;
+   padding:1em ;   
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin:0 auto;
+
+}
+.Footer a{
+    text-align: center;
+  margin: 0 auto;
+
+}
+.Footer a:hover{
+    text-align: center;
+  margin: 0 auto;
+  color:#333;
+  border-bottom:0.01em solid #333;
+
+}
