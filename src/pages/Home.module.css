@@ -1,6 +1,6 @@
 .Home img{
     height:300px;
-    width:99%;
+    width:100%;
     object-fit: cover;
     border-radius: 0.8em;
     display:flex;
@@ -22,6 +22,7 @@
     background-position: center;
     background-size: cover;
     flex-direction: column;
+   
     
 }
 .Home h1 , h3 , q{
@@ -41,4 +42,5 @@
     border-radius: 0.8em;
     background-color: #000;
     opacity: 0.10;
+    
 }
