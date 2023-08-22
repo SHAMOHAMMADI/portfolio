@@ -1,6 +1,110 @@
 .Resume{
-    height:80vh;
+    /* height:80vh; */
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.resume{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100vh;
+        padding:2em 0;
+
+}
+
+.resumeMain{
+   width:70%;
+   height:95%;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+   margin:0 1em 0 1em;
+   border-radius:1em;
+   flex-direction: column;
+   text-align: justify;
+   padding:1em;
+
+}
+.resumeMain h3 {
+  text-align: left;
+  width:90%;
+}
+.resumeMain .skills{
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.resumeMain .skills p{
+    display:flex;
+    justify-content: center;
+    width:5em;
+}
+
+.resumeSidebar{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width:25%;
+        height:70%;
+        box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+        margin-left: 1em;
+        border-radius:1em;
+        text-align: center;
+        padding: 0.5em;
+
+    
+}
+
+.resumeSidebar img{
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+    height: 20%;
+    border-radius: 1em;
+    width:10em;
+
+
+
+}
+.resumeSidebar button{
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+    border:none;
+    border-radius: 0.5em;
+    margin-top:1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+
+}
+.resumeSidebar button:hover{
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+    border:none;
+    border-radius: 0.5em;
+    margin-top:1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    color:white;
+    background-color: blue;
+
+}
+
+@media screen and (max-width:769px){
+    .Resume {
+        display:flex;
+        flex-direction:column;
+        margin:1em 0;
+        
+    }
+    .resumeSidebar{
+        /* margin:0.5em; */
+        width:fit-content;
+        margin: 0 0 1em 0;
+        padding-top: 0.5em;
+    }
+    .resumeSidebar img {
+
+    }
 }

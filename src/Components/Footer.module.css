@@ -6,16 +6,18 @@
   text-align: center;
   margin:0 auto;
 
+
 }
 .Footer a{
     text-align: center;
   margin: 0 auto;
-
+  
 }
 .Footer a:hover{
-    text-align: center;
+  text-align: center;
   margin: 0 auto;
   color:#333;
   border-bottom:0.01em solid #333;
+  
 
 }

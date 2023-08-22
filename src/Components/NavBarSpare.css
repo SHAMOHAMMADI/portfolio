@@ -1,0 +1,64 @@
+.NavBarSpare{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.NavBarSpare li{
+   margin:1em 2em;
+}
+
+.NavBarSpare li:hover{
+    margin:1em 2em;
+    color:red;
+ }
+
+.Toggle{
+    padding:1em;
+    cursor:pointer;
+    display:none;
+
+}
+
+@media screen and (max-width:769px){
+    .Toggle{
+        display:block;
+        text-align: left;
+        width:3em;
+        padding:0.3em;
+        margin:1em 0 0 1em;
+        /* border:1px solid black; */
+    }
+    .NavBarSpare{
+        display:none;
+        margin:0 1em;
+    }
+    .NavBar__menu.is-open .NavBarSpare{
+        color:blue;
+        /* border:1px solid black; */
+        /* height:1em; */
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .NavBarSpare li{
+ margin:0.7em;
+ width:100%;
+ cursor:pointer;
+ 
+ 
+    }
+    .NavBarSpare li:hover{
+        margin:0.7em;
+        width:100%;
+        
+        
+           }
+    .Toggle .menu{
+        /* color:blue; */
+        width:2.5em;
+
+    }
+    
+}

@@ -16,13 +16,6 @@ function Projects(){
         </div>
         <div className={styles.Projects}>
          <ProjectsList/>
-         <ProjectsList/>
-         <ProjectsList/>
-         <ProjectsList/>
-         <ProjectsList/>
-         <ProjectsList/>
-         <ProjectsList/>
-         <ProjectsList/>
             </div>
 
         <Footer/>

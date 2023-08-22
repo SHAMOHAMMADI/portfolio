@@ -2,10 +2,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-import image2 from '../img/2.jpg'
-import image3 from '../img/3.jpg'
-import image4 from '../img/4.jpg'
-import image5 from '../img/5.jpg'
+import image2 from '../img/lowPic/website.png'
+import image3 from '../img/lowPic/website.png'
+import image4 from '../img/lowPic/website.png'
+import image5 from '../img/lowPic/website.png'
 
 import styles from './SlideShow.module.css'
 
@@ -19,7 +19,7 @@ export default function SlideShow() {
     <div>
         <div className={styles.SlideShow}>
 
-    <AliceCarousel autoPlay infinite  autoPlayInterval="2000" >
+    <AliceCarousel autoPlay infinite  autoPlayInterval="3000" >
 
 <p><Link to="/home"><img src={image2} alt="test2"  className={styles.SlideImages}/></Link></p>
 <p><Link to="/home"><img src={image3} alt="test3" className={styles.SlideImages}/></Link></p>

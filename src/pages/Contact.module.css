@@ -1,6 +1,115 @@
 .Contact{
-    height:80vh;
+    height:90%;
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.sidebarContact{
+    width:30%;
+    height:100%;
+    display: flex;
+    /* justify-content: center; */
+    margin:5em auto;
+    border-left: 0.5px solid #bbb;
+    flex-direction: column;
+    
+}
+.main button{
+    margin:1em;
+    padding:0.3em 1.5em ;
+    border:none;
+    padding:0.5em 2em;
+    color:#777;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    border-radius: 0.5em;
+
+}
+.main button:hover{
+    margin:1em;
+    padding:0.3em 1.5em ;
+    border:none;
+    padding:0.5em 2em;
+    color:red;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+    cursor: pointer;
+    border-radius: 0.5em;
+    
+
+}
+
+.sidebarContact h1 , h2 , h3 , h4 , h5 , p {
+    margin:0.5em 1em ;
+}
+.sidebar p{
+    text-indent: 0.2em;
+}
+.main{
+        width:65%;
+        height:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+    
+    }
+.main .input{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    color:#777;
+    
+    
+    
+}
+.main textarea{
+    border:none;
+    width:90%;
+    height: 10em;
+    margin:0 auto;
+    border-radius: 0.5em;
+    outline:none;
+    padding:0.5em;
+}
+.main label{
+    margin: 0.4em 1em;
+}
+input{
+    margin:0.5em;
+    border:none;
+    outline: none;
+    height:2em;
+    border-radius: 0.5em;
+}
+
+    .sidebarContact img{
+        width:5em;
+        height:5em;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        margin:1em auto;
+    
+}
+
+@media screen and (max-width:769px){
+    .Contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+
+    }
+    .sidebarContact{
+        border:none;
+        border-bottom: 0.5px solid #bbb;
+        width:100%;
+        padding:1em;
+        text-align: center;
+        margin:auto
+    }
+    
 }

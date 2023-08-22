@@ -1,9 +1,16 @@
 import React from "react";
 import pic from "../img/1.jpg";
 import styles from './ProjectsList.module.css'
+import {useState , useEffect} from 'react'
+import axios from 'axios'
 
 
 export default function ProjectsList() {
+  const [data , setData] = useState([])
+  useEffect(()=>{
+   
+  },[])
+
   return (
     <div>
      

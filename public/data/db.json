@@ -1,0 +1,39 @@
+{
+    "Projects": {
+      "statue": "true",
+      "websites": [
+        {
+          "id": 101,
+          "Company": "alpha1",
+          "category": "electrical",
+          "price": "1000T",
+          "name": "wordprss",
+          "URL": "https://picsum.photos/150/100"
+        },
+        {
+            "id":102,
+            "Company": "alpha2",
+            "category": "shopping",
+            "price": "1000T",
+            "name": "Reactjs",
+            "URL": "https://picsum.photos/150/101"
+          },
+          {
+            "id": 103,
+            "Company": "alpha3",
+            "category": "sport",
+            "price": "1000T",
+            "name": "Nextjs",
+            "URL": "https://picsum.photos/150/102"
+          },
+          {
+            "id": 104,
+            "Company": "bticino",
+            "category": "electrical",
+            "price": "1000T",
+            "name": "vanillaJavaScript",
+            "URL": "https://picsum.photos/150/103"
+          }
+      ]
+    }
+  }

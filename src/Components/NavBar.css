@@ -1,0 +1,223 @@
+.MainNavBar{
+    display:flex;
+    height:4em;
+    width:100%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.MainNavBar li a {
+    margin : 0.5em 1.5em;
+    cursor:pointer; 
+    padding:0.8em;
+
+}
+
+.MainNavBar li a:hover{
+    font-weight: 600;
+    padding:0.5em 0.8em;
+    color:#fff;
+    border-radius: 0.5em;
+
+    
+    
+        background: linear-gradient(69deg, #00DBDE, #dc86de);
+        background-size: 400% 400%;
+      
+        -webkit-animation: AnimationName 3s ease infinite;
+        -moz-animation: AnimationName 3s ease infinite;
+        animation: AnimationName 3s ease infinite;
+      }
+      
+      @-webkit-keyframes AnimationName {
+        0%{background-position:0% 52%}
+        50%{background-position:100% 49%}
+        100%{background-position:0% 52%}
+      }
+      @-moz-keyframes AnimationName {
+        0%{background-position:0% 52%}
+        50%{background-position:100% 49%}
+        100%{background-position:0% 52%}
+      }
+      @keyframes AnimationName {
+        0%{background-position:0% 52%}
+        50%{background-position:100% 49%}
+        100%{background-position:0% 52%}
+      }
+    
+    
+
+.SocialNetwork {
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.SocialNetwork li a{
+    
+    display: flex;
+
+}
+.SocialNetwork li a:hover{
+    
+    padding: 0;
+    margin:0;
+    display: flex;
+     width:100%;
+     color:#333;
+    
+
+}
+.Test{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 0 1em 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.SocialNetwork li {
+  display : flex;
+  margin:0.8em;
+  flex-wrap: wrap;
+}
+.ToggleMenu{
+  display:none;
+}
+/* mobile-devices */
+
+@media screen and (max-width:769px){
+ .AllNavBar{
+  
+ }
+    .togglemenu__menuitems{
+      display:none;
+      flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .ToggleMenu {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      margin-left:1.5em;
+
+
+    }
+    .togglemenu__menuitems.is-open {
+      display:block;
+    }
+    
+    .NavBar li{
+      margin :0.5em auto;
+    }
+    .Test{
+        display: flex;
+        justify-content: center;
+        /* margin:0.2em auto; */
+    }
+    .SocialNetwork{
+      display:flex;
+      padding:0;
+      margin:1em 2.5em;
+      flex-direction: row;
+      
+    }
+
+    .SocialNetwork li{
+      margin:0.3em;
+    }
+    /* .Theme li {
+     position:absolute;
+     left:30em;
+     top:4em;
+    } */
+    /* .Theme li a{
+      margin:auto;
+      margin-right:2em;
+      position: absolute;
+      right:10em ; 
+      top :4em;
+    } */
+    /* .Theme li a:hover{
+      position: absolute;
+      right:1em ; 
+      top :4em;
+      background-color:navy;
+    }
+   */
+
+}
+
+
+/* button hover style */
+
+  .AllNavBar{
+    /* border: 1px solid black; */
+    display: flex;
+    border-bottom:0.5px solid #bbb;
+
+  }
+
+  .Theme a{
+    /* border:1px solid black; */
+    margin:0 1em 0 0 ;
+  }
+
+  
+  .Theme li a:hover{
+    color:red;
+    margin:0 1em 0 0 ;
+
+
+  }
+  .switch{
+    border:1px solid black;
+  }
+
+  #theme{
+    /* background-color: black; */
+  }
+
+  .MainNavBar li{
+    width:100%;
+    margin:0.3em;
+    padding:0.2em;
+    font-weight: 800;
+  }
+  .MainNavBar li:hover{
+    /* width:100%; */
+    margin:0.3em;
+    padding:0.2em;
+  }
+
+  .togglemenu__menuitems.is-open .MainNavBar  {
+    display:flex;
+    flex-direction: column;
+    position:ralative;
+    height:auto;
+    margin:2.5em 0;
+    justify-content: left;
+    width:100%;
+    position: absolute;
+    z-index: 1;
+
+  }
+  .ToggleMenu{
+    cursor: pointer;
+    width:2em;
+    position:absolute;
+    margin:1em 2.5em;
+   
+
+
+  }
+ #theme .ToggleMenu.MenuIcon{
+    width:5em;
+
+  }
