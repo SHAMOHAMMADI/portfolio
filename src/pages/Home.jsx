@@ -22,13 +22,14 @@ export default function Home() {
         <div className={styles.Box}>
         </div>
           <div className={styles.header}>
-            <h1>Design & Web Development</h1>
+            <h1>Design & <br/>
+               Web Development</h1>
           </div>
           <div>
             <pre>
-              <h3>The only true wisdom is in knowing you know nothing.</h3>
+              <h3>The only true wisdom is in knowing you know nothing.</h3> 
 
-              <h3>
+               <h3>
                 <q>socrates</q>
               </h3>
             </pre>
