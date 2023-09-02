@@ -3,12 +3,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     
-}
-
-.SlideShow{
+  }
+  
+  .SlideShow{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  margin : 1em 0;
-  border-radius: 0.5em;
-  background-position: center;
+    margin : 1em 0;
+    border-radius: 0.5em;
+    background-position: center;
 
 }

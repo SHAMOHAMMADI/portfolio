@@ -27,10 +27,10 @@ export default function Home() {
           </div>
           <div>
             <pre>
-              <h3>The only true wisdom is in knowing you know nothing.</h3> 
+              {/* <h3>The only true wisdom is in knowing you know nothing.</h3>  */}
 
                <h3>
-                <q>socrates</q>
+                {/* <q>socrates</q> */}
               </h3>
             </pre>
           </div>

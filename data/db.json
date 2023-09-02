@@ -1,0 +1,55 @@
+{
+    "Projects": {
+      "statue": "true",
+      "websites": [
+        {
+          "id": 101,
+          "Company": "autotech",
+          "category": "shopping",
+          "price": "1000T",
+          "name": "wordprss",
+          "URL": "/image/wordpress.png"
+        },
+        {
+            "id":102,
+            "Company": "Personal portfolio",
+            "category": "portfolio",
+            "price": "1000T",
+            "name": "Reactjs",
+            "URL": "/image/portfolio.png"
+          },
+          {
+            "id": 103,
+            "Company": "personalWebsite",
+            "category": "personalWebsite",
+            "price": "1000T",
+            "name": "Nextjs",
+            "URL": "/image/website.png"
+          },
+          {
+            "id": 104,
+            "Company": "learning",
+            "category": "sample",
+            "price": "1000T",
+            "name": "vanillaJavaScript",
+            "URL": "/image/js.jpg"
+          },
+          {
+            "id": 105,
+            "Company": "alpha",
+            "category": "content creator",
+            "price": "1000T",
+            "name": "content",
+            "URL": "/image/alphawebsitefr.png"
+          },
+          {
+            "id": 106,
+            "Company": "clock",
+            "category": "DigitalClock",
+            "price": "1000T",
+            "name": "vanillaJs",
+            "URL": "/image/DigitalClock.png"
+          }
+      ]
+    }
+  }
