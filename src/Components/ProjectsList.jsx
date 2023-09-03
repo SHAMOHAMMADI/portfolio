@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 export default function ProjectsList(props) {
   const [data , setData] = useState([])
   useEffect(()=>{
-   axios.get("http://localhost:3001/Projects").then(result=>{
+   axios.get("http://localhost:3020/Projects").then(result=>{
     setData(result.data.websites)
    }).catch((err)=>{
    console.log(err)
@@ -18,13 +18,13 @@ export default function ProjectsList(props) {
   },[])
 
   return (
-    <div>
+    <div className={styles.projectscreen}>
      
         <div className={styles.ProjectItems}>
        
       <img src={props.websites.URL} alt="cart" />
       
-      <div>
+      <div className={styles.text}>
       <h3>{props.websites.name}</h3>
       <h4>{props.websites.category}</h4>
       </div>

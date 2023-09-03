@@ -20,8 +20,8 @@
           },
           {
             "id": 103,
-            "Company": "personal-Website",
-            "category": "personal-Website",
+            "Company": "personalWebsite",
+            "category": "personalWebsite",
             "price": "1000T",
             "name": "Nextjs",
             "URL": "/image/low/website.png"
@@ -31,7 +31,7 @@
             "Company": "learning",
             "category": "sample",
             "price": "1000T",
-            "name": "vanilla-Js",
+            "name": "vanillaJavaScript",
             "URL": "/image/low/js.jpg"
           },
           {

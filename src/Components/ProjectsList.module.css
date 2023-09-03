@@ -21,6 +21,41 @@
 
 }
 .ProjectItems h3 , h4 {
-    padding:0.1em 0.3em 0.3em 0;
+    /* padding:0.1em 0.3em 0.3em 0; */
     display:flex;
+}
+
+
+@media screen and (max-width:769px){
+    .ProjectItems{
+        width:80%;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        padding:0 0 0 2em
+ 
+    }
+    .text{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        margin:0 auto;
+        flex-wrap: wrap;
+        width:30%;
+
+        
+    }
+    .ProjectItems img{
+        width:70%;
+        margin:0;
+        
+    }
+    .projectscreen{
+        width:90%;
+        display: flex;
+        justify-content: center;
+    }
+
+
 }

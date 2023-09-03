@@ -101,15 +101,21 @@ input{
         justify-content: center;
         align-items: center;
         flex-direction: column-reverse;
+        width:80vw;
+        margin:0 auto;
 
     }
     .sidebarContact{
         border:none;
         border-bottom: 0.5px solid #bbb;
-        width:100%;
+        width:90%;
         padding:1em;
         text-align: center;
-        margin:auto
+        margin:auto;
+        display:flex;
+        justify-content: center;
+        margin-bottom: 1em;
+
     }
     
 }
